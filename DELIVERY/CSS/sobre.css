@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #F7EFED;
+}
+
+header{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 100px;
+}
+
+header figure img{
+    width: 70px;
+   
+}
+
+.info ul {
+    display: flex;  
+    flex-direction: row;
+    font-size: 16px;
+    gap: 100px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.home a{
+    color: #333333;;
+}
+
+.sobre a{
+    color: #f50e0a;
+}
+
+.servicos a{
+    color: #333333;
+}
+.entrar{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f50e0a;
+    color: white;
+    border-radius: 100px;
+    border: 0;
+    padding: 15px 80px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #fc3431;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 40px;
+}
+
+
+.sobre_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 90px;
+}
+
+.sobre_texto h1{
+    color: #333333;
+    font-size: 56px;
+    max-width: 500px;
+
+}
+
+.sobre_texto p{
+    color: #333333;
+    max-width: 570px;
+    text-align: justify;
+    opacity: 70%;
+    font-size: 16px;
+}
+
+
+.cadastrar{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f50e0a;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 80px;
+    cursor: pointer;
+}
+
+.cadastrar:hover{
+    background-color: #fc3431;
+}
+
+main figure img{
+    width: 700px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+footer p{
+    color: #333333;
+    opacity: 80%;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-buttons a{
+    color: #f50e0a;
+}
+
+
+@media only screen and (max-width: 1680px) {
+    header figure img{
+        width: 60px;
+    }
+
+    .entrar{
+        font-size: 12px;
+        padding: 15px 70px;
+    }
+
+    .home a{
+        font-size: 14px;
+    }
+    
+    .sobre a{
+        font-size: 14px;
+    }
+    
+    .servicos a{
+        font-size: 14px;
+    }
+
+    .entrar{
+        font-size: 13px;
+        font-weight: 500;
+        background-color: #f50e0a;
+        color: white;
+        border-radius: 100px;
+        border: 0;
+        padding: 16px 70px;
+        cursor: pointer;
+    }
+
+
+
+    .sobre_texto{
+        margin-top: 100px;
+    }
+    
+    .sobre_texto h1{
+        font-size: 45px;
+        max-width: 500px;
+    
+    }
+    
+    .sobre_texto p{
+        max-width: 500px;
+        font-size: 14px;
+    }
+    
+    
+    .cadastrar{
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #f50e0a;
+        color: white;
+        border-radius: 5px;
+        border: 0;
+        padding: 13px 60px;
+        cursor: pointer;
+    }
+    
+    .cadastrar:hover{
+        background-color: #fc3431;
+    }
+    
+    main figure img{
+        width: 500px;
+    
+    }
+    
+    footer{
+        margin-top: 100px;
+    }
+    
+    footer p{
+        font-size: 14px;
+    }
+}

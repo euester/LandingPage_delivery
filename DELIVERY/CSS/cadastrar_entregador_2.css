@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-image: url("/IMG/CADASTRAR E LOGIN/olhando_tablet.png");
+    background-repeat: no-repeat;
+    background-position-x: 1060px;
+}
+
+section figure img{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+section{
+    margin-left: 450px;
+}
+
+.info_cadastrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.info_cadastrar h1{
+    font-size: 30px;
+    color: #171717;   
+}
+
+.info_cadastrar p{
+    font-size: 16px;
+    color: #171717; 
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.inserir [type="text"], [type="number"]{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    margin-top: 20px;
+    padding: 17px;
+    border-radius: 5px;
+    width: 400px;
+
+
+    border: solid 1px #d6d6d6;
+
+}
+
+
+
+.bnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.inserir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalizar{
+    font-size: 15px;
+    width: 436px;
+    background-color: #F50C0A;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    font-weight: 500;
+    
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.finalizar:hover{
+    background-color: #fd312d;
+
+}
+
+.check{
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.check{
+    margin-bottom: 5px;
+    display: flex;
+
+
+}
+
+.check p a{
+    color: #F50C0A;
+    font-weight: 500;
+}
+
+.check label{
+    color: #7c7c7c;
+}
+
+.check_label a{
+    color: #F50C0A;
+    font-weight: 500;
+}
+
+
+.cor_veiculo{
+    margin-top: 20px;
+    padding: 17px;
+    border-radius: 5px;
+    width: 436px;
+    border: solid 1px #d6d6d6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.cor form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+select{
+    color: #7c7c7c;
+}
+
+@media only screen and (max-width: 1680px){
+    body{
+        background-size: 800px;
+        background-position-y: 5px;
+        background-position-x: 900px;
+    }
+
+    section{
+        margin-left:330px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1440px){
+    body{
+        background-size: 650px;
+        background-position-y: 20px;
+        background-position-x: 800px;
+    }
+    
+    main{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    section{
+        margin-left: 250px;
+    }
+      
+    section figure img{
+        width: 100px;
+    }
+
+    .bnt nav p{
+       font-size: 13px;
+    }
+
+    
+    .info h1{
+        font-size: 20px;
+    }
+    
+    .info p{
+        font-size: 15px;
+    }
+    
+    .instrucoes{
+        text-align: center;
+        margin-bottom: 10px;
+    
+    }
+    
+    .inserir [type="text"], [type="email"], [type="password"], [type="number"] {
+        display: flex;
+        flex-direction: column;
+    
+        gap: 20px;
+        margin-top: 20px;
+        padding: 13px;
+        border-radius: 5px;
+        width: 350px;
+    
+    
+    
+        border: solid 1px #d6d6d6;
+    }
+
+    .cor_veiculo{
+        margin-top: 20px;
+        padding: 13px;
+        border-radius: 5px;
+        width: 378px;
+        border: solid 1px #d6d6d6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    
+    
+    
+    .lembre-me{
+        display: flex;
+        font-size: 15px;
+        gap: 10px;
+    }
+    
+    
+    .finalizar{
+        font-size: 13px;
+        width: 377px;
+        background-color: #F50C0A;
+        padding: 13px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+
+    
+    .check p {
+        font-size: 13px;
+    }
+
+    .check label{
+        font-size: 13px;
+    }
+    
+
+    .nao_tem_conta nav p{
+        color: #7c7c7c;
+        font-size: 13px;
+    }
+    
+    .nao_tem_conta nav{
+        margin-top: 20px;
+    }
+    
+    .nao_tem_conta nav p a{
+        color: #F50C0A;
+        font-weight: 500;   
+    }
+ 
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        background-image: none;
+    }
+    
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    section{
+        margin-left: 0px;
+    }
+}

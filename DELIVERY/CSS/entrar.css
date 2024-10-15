@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("/IMG/CADASTRAR E LOGIN/sorrindo.png");
+    background-repeat: no-repeat;
+}
+
+
+main{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+section figure img{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+section{
+    margin-right: 450px;
+}
+
+.info_entrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_entrar h1{
+    font-size: 30px;
+    color: #171717;   
+}
+
+.info_entrar p{
+    font-size: 16px;
+    color: #171717; 
+}
+
+.instrucoes{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.input_entrar [type="email"], [type="password"] {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    margin-top: 20px;
+    padding: 17px;
+    border-radius: 5px;
+    width: 400px;
+
+
+
+    border: solid 1px #d6d6d6;
+}
+
+
+.lembre-me{
+    display: flex;
+    gap: 10px;
+}
+
+
+.bnt_entrar{
+    font-size: 15px;
+    width: 436px;
+    background-color: #F50C0A;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff2c28;
+}
+
+.check{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.check{
+    margin-bottom: 5px;
+
+}
+
+.check p a{
+    color: #F50C0A;
+    font-weight: 500;
+}
+
+.check label{
+    color: #7c7c7c;
+}
+
+
+
+.nao_tem_conta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nao_tem_contanav p{
+    color: #7c7c7c;
+}
+
+.nao_tem_conta nav{
+    margin-top: 20px;
+}
+
+.nao_tem_conta nav p a{
+    color: #F50C0A;
+    font-weight: 500;   
+}
+
+
+@media only screen and (max-width: 1680px){
+    body{
+        background-size: 800px;
+        background-position-y: 40px;
+    }
+
+    section{
+        margin-right: 300px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1440px){
+    body{
+        background-size: 700px;
+        background-position-y: 10px;
+    }
+    
+    main{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    section{
+        margin-right: 250px;
+    }
+      
+    section figure img{
+        width: 100px;
+    }
+
+    
+    .info_entrar h1{
+        font-size: 20px;
+    }
+    
+    .info_entrar p{
+        font-size: 15px;
+    }
+    
+    .instrucoes{
+        text-align: center;
+        margin-bottom: 10px;
+    
+    }
+    
+    .input_entrar [type="email"], [type="password"] {
+        display: flex;
+        flex-direction: column;
+    
+        gap: 20px;
+        margin-top: 20px;
+        padding: 13px;
+        border-radius: 5px;
+        width: 350px;
+    
+    
+    
+        border: solid 1px #d6d6d6;
+    }
+    
+    
+    .lembre-me{
+        display: flex;
+        font-size: 15px;
+        gap: 10px;
+    }
+    
+    
+    .bnt_entrar{
+        font-size: 13px;
+        width: 377px;
+        background-color: #F50C0A;
+        padding: 13px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+
+    
+    .check p {
+        font-size: 13px;
+    }
+
+    .check label{
+        font-size: 13px;
+    }
+    
+
+    .nao_tem_conta nav p{
+        color: #7c7c7c;
+        font-size: 13px;
+    }
+    
+    .nao_tem_conta nav{
+        margin-top: 20px;
+    }
+    
+    .nao_tem_conta nav p a{
+        color: #F50C0A;
+        font-weight: 500;   
+    }
+ 
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        background-image: none;
+    }
+    
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    section{
+        margin-right: 0px;
+    }
+      
+}
+
+
+
+
